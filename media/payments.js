@@ -44,5 +44,5 @@ installEl.addEventListener(actEvent, installApp);
 
 function installApp(e) {
     e.preventDefault();
-    window.navigator.mozApps.install('http://potch.me/payments/manifest.webapp');
+    window.navigator.mozApps.install('/payments-demo/manifest.webapp');
 }
