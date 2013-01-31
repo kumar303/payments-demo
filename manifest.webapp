@@ -3,6 +3,7 @@
   "version": "1.0",
   "description": "Demos the Marketplace Payments Flow",
   "launch_path": "/payments/index.html",
+  "appcache_path": "manifest.appcache",
   "icons": {
     "64": "media/64.png",
     "128": "media/128.png"
