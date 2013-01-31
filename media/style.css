@@ -50,8 +50,8 @@ section li {
     width: 100%;
     text-align: center;
     display: none;
-    background: rgba(0,0,0,.5);
-    line-height: 32px;
+    background: rgba(0,0,0,.9);
+    line-height: 48px;
     font-size: 20px;
     color: #fff;
 }

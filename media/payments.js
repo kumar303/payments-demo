@@ -12,12 +12,12 @@ var hasTouch = ('ontouchstart' in window) ||
 
 var actEvent = hasTouch ? "touchstart" : "click";
 
-document.querySelector('.prev').addEventListener('touchstart', function(e) {
+document.querySelector('.prev').addEventListener(actEvent, function(e) {
     e.preventDefault();
     flip.toPrev();
 });
 
-document.querySelector('.next').addEventListener('touchstart', function(e) {
+document.querySelector('.next').addEventListener(actEvent, function(e) {
     e.preventDefault();
     flip.toNext();
 });
