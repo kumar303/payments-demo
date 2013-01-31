@@ -1,0 +1,15 @@
+{
+  "name": "Mkt Payments",
+  "version": "1.0",
+  "description": "Until you make it!",
+  "launch_path": "/payments/index.html",
+  "icons": {
+    "128": "media/128.png"
+  },
+  "developer": {
+    "name": "Mozilla",
+    "url": "https://marketplace.firefox.com/"
+  },
+  "default_locale": "en",
+  "orientation": ["portrait"]
+}
