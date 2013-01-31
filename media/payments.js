@@ -44,5 +44,13 @@ installEl.addEventListener(actEvent, installApp);
 
 function installApp(e) {
     e.preventDefault();
+    console.log('install triggered');
     window.navigator.mozApps.install(window.location.href + '/payments-demo/manifest.webapp');
+    r.onsuccess = function() {
+        console.log('success!');
+    }
+    r.onerror = function() {
+        console.log('error!');
+    }
+
 }
