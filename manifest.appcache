@@ -1,8 +1,9 @@
 CACHE MANIFEST
-# v5
+# v6
 
 index.html
 media/128.png
+media/64.png
 media/flipsnap.js
 media/foo.css
 media/payfoo.js
