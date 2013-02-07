@@ -2,8 +2,6 @@ CACHE MANIFEST
 # v15
 
 index.html
-media/128.png
-media/64.png
 media/flipsnap.js
 media/style.css
 media/payments.js
