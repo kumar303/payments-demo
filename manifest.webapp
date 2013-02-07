@@ -5,6 +5,7 @@
   "launch_path": "/index.html",
   "appcache_path": "/manifest.appcache",
   "icons": {
+    "48": "media/64.png",
     "64": "media/64.png",
     "128": "media/128.png"
   },
