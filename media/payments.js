@@ -59,9 +59,9 @@ var screens = document.querySelectorAll('#screens img');
 function show(n) {
     for (var i=0; i<screens.length; i++) {
         if (i === n) {
-            img.style.display = 'block';
+            screens[i].style.display = 'block';
         } else {
-            img.style.display = 'none';
+            screens[i].style.display = 'none';
         }
     }
 }
