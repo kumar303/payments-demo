@@ -57,7 +57,6 @@ var current = 0;
 var screens = document.querySelectorAll('#screens img');
 
 function show(n) {
-    document.title = n;
     for (var i=0; i<screens.length; i++) {
         if (i === n) {
             screens[i].style.display = 'block';
