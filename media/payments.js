@@ -2,10 +2,6 @@ document.body.addEventListener('dragstart', function(e) {
     e.preventDefault();
 });
 
-var flip = Flipsnap('section ul', {
-    distance: 320
-});
-
 var hasTouch = ('ontouchstart' in window) ||
                window.DocumentTouch &&
                document instanceof DocumentTouch;
@@ -14,12 +10,12 @@ var actEvent = hasTouch ? "touchstart" : "click";
 
 document.querySelector('.prev').addEventListener(actEvent, function(e) {
     e.preventDefault();
-    flip.toPrev();
+    prev();
 });
 
 document.querySelector('.next').addEventListener(actEvent, function(e) {
     e.preventDefault();
-    flip.toNext();
+    next();
 });
 
 (function() {
@@ -55,3 +51,35 @@ function installApp(e) {
     }
 
 }
+
+var current = 0;
+
+var screens = document.querySelectorAll('#screens img');
+
+function show(n) {
+    for (var i=0; i<screens.length; i++) {
+        if (i === n) {
+            img.style.display = 'block';
+        } else {
+            img.style.display = 'none';
+        }
+    }
+}
+
+function next() {
+    current++;
+    if (current > screens.length - 1) {
+        current = 0;
+    }
+    show(current);
+}
+
+function prev() {
+    current--;
+    if (current < 0) {
+        current = screens.length - 1;
+    }
+    show(current);
+}
+
+show(current);
