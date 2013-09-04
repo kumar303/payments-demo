@@ -5,8 +5,8 @@
   "launch_path": "/payments-demo/index.html",
   "appcache_path": "/payments-demo/manifest.appcache",
   "icons": {
-    "64": "media/64.png",
-    "128": "media/128.png"
+    "64": "/media/64.png",
+    "128": "/media/128.png"
   },
   "developer": {
     "name": "Mozilla",

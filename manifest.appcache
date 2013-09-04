@@ -1,10 +1,7 @@
 CACHE MANIFEST
-# v11
+# v23
 
 index.html
-media/128.png
-media/64.png
-media/flipsnap.js
 media/style.css
 media/payments.js
 img/payments-demo-1.jpg
@@ -13,4 +10,5 @@ img/payments-demo-3.jpg
 img/payments-demo-4.jpg
 img/payments-demo-5.jpg
 img/payments-demo-6.jpg
+img/payments-demo-7.jpg
 
